@@ -8,7 +8,7 @@
 
 ## Create new lambda
 
-- `serverless create -t aws-go-dep -p lambda-go`
+- `sls create -t aws-go-dep -p lambda-go`
 - `cd lambda-go`
 - `make`
 - Change default AWS region in serverless.yml (in our case eu-west-2)
@@ -17,7 +17,7 @@
 
 ## Deploy
 
-`sls deploy`
+`make && sls deploy`
 
 ## Run locally
 
