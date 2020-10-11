@@ -23,7 +23,6 @@
 
 ### Invoke lambda directly
 
-Invoke lambda directly
 `sls invoke local --function hello`
 
 ### With API gateway
