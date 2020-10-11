@@ -2,9 +2,9 @@
 
 ## Prerequisite
 
-Serverless: `npm i serverless -i`
-Go
-Install pep (deprecated, should come with go?)
+- Serverless: `npm i serverless -i`
+- Go
+- Install pep (deprecated, should come with go?)
 
 ## Create new lambda
 
