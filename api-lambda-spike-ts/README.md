@@ -1,5 +1,9 @@
 # Lambda based API with Typescript
 
+## Prerequisite
+
+Serverless: `npm i serverless -i`
+
 ## Deploy to AWS
 
 `serverless deploy -r eu-west-2`
