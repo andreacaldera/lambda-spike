@@ -8,3 +8,5 @@ jspm_packages
 .vscode
 
 .eslintcache
+
+.DS_STore
