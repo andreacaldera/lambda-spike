@@ -5,6 +5,7 @@
 - Serverless: `npm i serverless -i`
 - Go
 - Install pep (deprecated, should come with go?)
+- AWS credential
 
 ## Create new lambda
 

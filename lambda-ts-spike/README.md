@@ -3,6 +3,7 @@
 ## Prerequisite
 
 - Serverless: `npm i serverless -i`
+- AWS credential
 
 ## Create new lambda
 
