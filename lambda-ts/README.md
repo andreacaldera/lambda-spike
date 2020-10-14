@@ -2,6 +2,7 @@
 
 ## Prerequisite
 
+- NPM
 - Serverless: `npm i serverless -i`
 - AWS credential
 
