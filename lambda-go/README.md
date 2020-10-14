@@ -14,7 +14,11 @@
 - `make`
 - Change default AWS region in serverless.yml (in our case eu-west-2)
 - `npm i serverless-offline --sav-dev`
-- Add `plugins: serverless-offline` to serverless.yml
+- Add ```
+plugins:
+  - serverless-offline
+```
+to serverless.yml
 
 ## Deploy
 
