@@ -28,7 +28,7 @@
 
 ### With API gateway
 
-`sls offline -f hello --httpPort 5001 --websocketPort 5002 --lambdaPort 5003 --useDocker`
+`sls offline -f hello --httpPort 6001 --websocketPort 6002 --lambdaPort 6003 --useDocker`
 (Ports are optional)
 
 ## References
