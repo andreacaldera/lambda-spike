@@ -12,9 +12,7 @@
 - `sls create -t aws-go-dep -p lambda-go`
 - `cd lambda-go`
 - `make`
-- Change default AWS region in serverless.yml (in our case eu-west-2)
-- `npm i serverless-offline --sav-dev`
-- Add `plugins: - serverless-offline` to serverless.yml
+- *Optional* Change default AWS region in serverless.yml (in our case eu-west-2)
 
 ## Deploy
 
@@ -27,6 +25,9 @@
 `sls invoke local --function hello`
 
 ### With API gateway
+
+- `npm i serverless-offline --sav-dev`
+- Add `plugins: - serverless-offline` to serverless.yml
 
 `sls offline -f hello --httpPort 6001 --websocketPort 6002 --lambdaPort 6003 --useDocker`
 (Ports are optional)
